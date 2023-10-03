@@ -1,0 +1,86 @@
+<resources>
+    <string name="app_name">Cookbook</string>
+    <string name="title_activity_recipes_acticity">RecipesActicity</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="title_activity_pasta">PastaActivity</string>
+    <string name="makaron">
+"Potrzebne składniki:
+
+1. Makaron 200g
+2. Puszka pomidorów 400g
+3. Oliwa z oliwek 3 łyżki
+4. Czosne 2 zbąki
+5. Sól i piperz
+6. Ser Grana Padano
+
+Przygotowanie:
+Do garnka wlać oliwę i dodać obrane zbąki czosnku, smażyć na średnim ogniu przez 5min.
+
+Po tym czasie wyciągnąć czosnek i dodać puszkę pomidorów. Dodać sól pieprz i dusić przez 20min.
+
+Po tym czasie odstawić do odparowania.
+
+Następnie zagotować wodę na makaron i gotować przez 10min.
+
+Po ugotowaniu makaronu dodać usmażony czosnek do sosu i podgrzać przez 2min na średnim ogniu.
+"
+    </string>
+
+    <string name="nalesniki">
+"Potrzebne składniki:
+
+1. Szklanak mleka 300ml
+2. Woda gazowana 100ml
+3. 2 jajka
+4. 30g masła
+5. Sól
+6. 300g mąki
+
+Przygotowanie:
+Dodać wszystkie składniki i miksować przez 5min
+
+Wyrobioną masę zostawić na 30min
+
+Po tym czasie wymieszać i rozgrzać mocno patelnię
+
+Wylewamy ciasto na patelnie i smażymy przez 2min na każdej stronie.
+"
+    </string>
+
+    <string name="makarontimer">
+Czas na przygotowanie makaronu to 10min.
+Nalej wody do garnka, posól ją i zagotuj.
+Gdy woda się będzie gotować włóż makaron.
+    </string>
+
+    <string name="tomatotimer">
+Do oliwy po czosnku dodać puszkę pomidorów.
+Dodać sól pieprz i dusić przez 20min
+    </string>
+
+    <string name="garliktimer">
+Do garnka wlać oliwę i dodać obrane zbąki czosnku.
+Smażyć na średnim ogniu przez 5min.
+Po tym czasie wyciągnąć czosnek.
+    </string>
+
+    <string name="ciastotimer">
+Dodać wszystkie składniki i miksować przez 5min
+    </string>
+
+    <string name="smazenietimer">
+Wylać ciasto na rozgrzaną patelnię i smażyć przez 2 min z każdej strony
+    </string>
+
+    <string name="title_activity_timer_pasta">TimerPastaActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="title_activity_timer">TimerActivity</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
