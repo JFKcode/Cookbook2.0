@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">CardViewRecyclerViewTutorial</string>
+    <string name="cover">Cover</string>
+    <string name="title_place_holder">Title Place Holder</string>
+    <string name="author_placeholder">Author PlaceHolder</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="makarontimer">
+Czas na przygotowanie makaronu to 10min.
+Nalej wody do garnka, posól ją i zagotuj.
+Gdy woda się będzie gotować włóż makaron.
+    </string>
+
+    <string name="tomatotimer">
+Do oliwy po czosnku dodać puszkę pomidorów.
+Dodać sól pieprz i dusić przez 20min
+    </string>
+
+    <string name="garliktimer">
+Do garnka wlać oliwę i dodać obrane zbąki czosnku.
+Smażyć na średnim ogniu przez 5min.
+Po tym czasie wyciągnąć czosnek.
+    </string>
+    <string name="ciastotimer">
+Dodać wszystkie składniki i miksować przez 5min
+    </string>
+
+    <string name="smazenietimer">
+Wylać ciasto na rozgrzaną patelnię i smażyć przez 2 min z każdej strony
+    </string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
