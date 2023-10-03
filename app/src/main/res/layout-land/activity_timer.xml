@@ -5,16 +5,17 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/ic_bg"
-    tools:context=".PastaActivity">
+    tools:context=".TimerActivity">
 
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/toolbarRecipes"
         android:layout_width="match_parent"
         android:layout_height="?android:attr/actionBarSize"
         android:background="#ffffff"
-<<<<<<< HEAD
+        android:theme="@style/ToolbarTheme"
         app:layout_constraintTop_toTopOf="parent"
-        app:title="Makaron z sosem pomidorowym" />
+        app:title="Makaron z sosem pomidorowym"
+        app:titleTextColor="@color/colorPrimary" />
 
     <Button
         android:id="@+id/Pasta2"
@@ -55,58 +56,15 @@
 
     <FrameLayout
         android:id="@+id/flFragment"
-        android:layout_width="378dp"
-        android:layout_height="509dp"
+        android:layout_width="699dp"
+        android:layout_height="298dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/Pasta2"
+        app:layout_constraintVertical_bias="0.0"
         tools:ignore="MissingConstraints" />
-=======
-        android:theme="@style/ToolbarTheme"
-        app:layout_constraintTop_toTopOf="parent"
-        app:title="Makaron z sosem pomidorowym"
-        app:titleTextColor="@color/colorPrimary" />
-
-    <Button
-        android:id="@+id/start1"
-        android:layout_width="213dp"
-        android:layout_height="54dp"
-        android:gravity="center"
-        android:text="Gotuj"
-        android:textColor="@android:color/white"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        tools:ignore="MissingConstraints">
-
-    </Button>
-
-    <ScrollView
-        android:layout_width="390dp"
-        android:layout_height="546dp"
-        app:layout_constraintBottom_toTopOf="@+id/start1"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/toolbarRecipes">
-
-        <TextView
-            android:layout_width="380dp"
-            android:layout_height="589dp"
-            android:gravity="left"
-            android:text="@string/makaron"
-            android:textColor="@color/white"
-            android:textSize="22sp"
-            app:layout_constraintTop_toBottomOf="@+id/toolbarRecipes"
-            tools:ignore="MissingConstraints"
-            tools:layout_editor_absoluteX="16dp">
-
-
-        </TextView>
-    </ScrollView>
->>>>>>> d0f10cd279dc2ee8e3d219e90a9aae4a021a68c6
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

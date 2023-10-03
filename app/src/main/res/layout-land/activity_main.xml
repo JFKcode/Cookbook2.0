@@ -1,25 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<<<<<<< HEAD
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-=======
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
->>>>>>> d0f10cd279dc2ee8e3d219e90a9aae4a021a68c6
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/ic_bg"
-<<<<<<< HEAD
-    tools:context=".MainActivity">
-
-    <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/recyclerView"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"/>
-
-</androidx.constraintlayout.widget.ConstraintLayout>
-=======
     tools:context=".MainActivity"
     android:orientation="vertical"
     android:gravity="center">
@@ -75,4 +61,3 @@
     </com.google.android.material.card.MaterialCardView>
 
 </LinearLayout>
->>>>>>> d0f10cd279dc2ee8e3d219e90a9aae4a021a68c6

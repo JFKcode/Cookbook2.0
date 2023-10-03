@@ -1,10 +1,26 @@
+<<<<<<< HEAD
+=======
+pluginManagement {
+    repositories {
+        google()
+        mavenCentral()
+        gradlePluginPortal()
+    }
+}
+>>>>>>> d0f10cd279dc2ee8e3d219e90a9aae4a021a68c6
 dependencyResolutionManagement {
     repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
     repositories {
         google()
         mavenCentral()
+<<<<<<< HEAD
         jcenter() // Warning: this repository is going to shut down soon
     }
 }
 rootProject.name = "CardViewRecyclerViewTutorial"
+=======
+    }
+}
+rootProject.name = "Cookbook"
+>>>>>>> d0f10cd279dc2ee8e3d219e90a9aae4a021a68c6
 include ':app'
